@@ -41,7 +41,36 @@ Zeenat-AI operates through specialized agents that analyze user input in paralle
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Local Setup & Demo Instructions
+If you have downloaded the source code as a ZIP file, follow these steps to launch Zeenat-AI on your machine:
+
+### 1. Prerequisites
+- **Node.js**: Ensure you have Node.js installed (v18 or higher recommended).
+- **Gemini API Key**: You need an API key from [Google AI Studio](https://aistudio.google.com/).
+
+### 2. Installation
+1.  **Extract** the ZIP file into a folder.
+2.  **Open Terminal/Command Prompt** and navigate to that folder.
+3.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+### 3. Configuration
+1.  Create a file named `.env` in the root directory (or rename `.env.example`).
+2.  Add your Gemini API key to the file:
+    ```env
+    GEMINI_API_KEY=your_actual_key_here
+    ```
+
+### 4. Launch the App
+Run the following command to start the development server:
+```bash
+npm run dev
+```
+By default, the application will be available at `http://localhost:3000`.
+
+---
 *   **Frontend**: React 18+ with Vite
 *   **Styling**: Tailwind CSS (Sophisticated "Royal/Empowerment" aesthetic)
 *   **Intelligence**: Google Gemini API (Using Swarm/Multi-role prompting)
