@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEENAT-AI | Empowerment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Noto+Sans+Urdu:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        :root {
+            --pink-base: #FFE6EE;
+            --pink-deep: #9d174d;
+            --pink-soft: #f472b6;
+            --warm-gray: #FFE6EE;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FFE6EE;
+            color: #1a1a1a;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .urdu-title {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            line-height: 2.2;
+        }
+
+        .urdu-text {
+            font-family: 'Noto Sans Urdu', sans-serif;
+            direction: rtl;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #fdf2f8;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #9d174d;
+            border-radius: 10px;
+        }
+
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0"
+  }
+}
+</script>
+</head>
+<body class="bg-[#FFE6EE]">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

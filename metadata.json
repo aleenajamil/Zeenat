@@ -1,0 +1,9 @@
+{
+  "name": "Remix:  Zeenat-AI",
+  "description": "A multi-agent empowerment system for Pakistani women providing localized legal, health, and economic guidance.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
